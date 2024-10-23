@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import pickle
 
-model=pickle.load(open("D:\\DV ANALYTIC\\TOPICS\\4. DATA MINING\\ML PROJECT\\1. BANKING\\Bank Domain\\MODEL\\pipe2.pkl","rb"))
+model=pickle.load(open("https://github.com/MitrabhanuPanda/LOAN-DEFAULT-ML-PROJECT/blob/main/MODEL/pipe2.pkl","rb"))
 df=pickle.load(open(r"MODEL/df.pkl","rb"))
 df1=pd.read_csv(r"D:\DV ANALYTIC\TOPICS\4. DATA MINING\ML PROJECT\1. BANKING\Bank Domain\final_data.csv")
 
